@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:100,400,300,500);
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float:right;
+}
+
+.thin {
+  font-weight: 100;
+}
+
+.clear {
+  clear: both;
+}
+
+.clock {
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: right;
+  padding: 1em;
+  font-size: 1.25em;
+}
+
+.clock .clock-time {
+  font-size: 1.75em;
+  font-weight: 100;
+}
+
+.weather-box {
+  width: 16.5em;
+  padding: 1em 1em;
+}
+
+.weather-box .weather-temp {
+  font-size: 3.5em;
+  font-weight: 100;
+  margin-bottom: 0.25em;
+}
+
+.weather-box .weather-icon {
+  font-size: 5em;
+  margin-left: 0.2em;
+}
+
+.weather-box .weather-location {
+  font-size: 1em;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.weather-box .weather-sub {
+  line-height: 1.25em;
+}
